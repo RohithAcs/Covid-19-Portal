@@ -1,0 +1,54 @@
+.container{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 5px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,th,td{
+    border:1px solid black;
+     background: #ddd; 
+     padding:15px;
+}
+table{
+     margin:30px 0 0 10px; 
+      border-collapse: collapse; 
+}
+th{
+    cursor: pointer;
+}
+th{
+    background-color: skyblue;
+}
+#btn{
+    margin-top: 20px;
+   line-height: 60px;
+   font-weight: bold;
+   font: 1.5em Raleway, sans-serif;
+   padding: 0 40px;
+   background: salmon;
+   border: none;
+   cursor: pointer;
+}
+#district{
+    text-align: center;
+}
+
+#myInput{
+    width: 30%;
+    height: 25px;
+    border:1px solid black;
+    text-align: center;
+}
+
+.inputBox{
+    display:flex;
+    justify-content: right;
+}
+
+#error{
+    text-align:center ;
+    color: red;
+}
